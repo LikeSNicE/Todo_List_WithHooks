@@ -1,0 +1,36 @@
+.inputAdd{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 45px;
+
+  &Value{
+    border: 1px solid #b1b1b1;
+    border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px;
+    font: 1rem/1em 'Roboto', sans-serif;
+    
+    &::placeholder{
+      color: #7B7B7B;
+    }
+
+    min-height: 32px;
+    border-left: right;
+  }
+
+  &Button{
+    min-height: 32px;
+    border-radius: none;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #3f72af url('./images/plus.svg') no-repeat center;
+    width: 60px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover{
+      background-color: #0b4283;
+    }
+  }
+}
